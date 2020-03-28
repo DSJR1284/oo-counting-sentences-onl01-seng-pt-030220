@@ -16,7 +16,8 @@ class String
   end
 
   def count_sentences
-    self.split(.,?,!) if counting_sentences.end_with(".,?,!")
+    self.split(/".,?,!"/) if counting_sentences.end_with(".,?,!")
   end
 end
 
+(/[\s,']/)
