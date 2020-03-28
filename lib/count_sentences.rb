@@ -19,3 +19,4 @@ class String
     self.split(.,?,!) if counting_sentences.end_with(".,?,!")
   end
 end
+
