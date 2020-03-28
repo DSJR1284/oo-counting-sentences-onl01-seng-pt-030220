@@ -16,7 +16,6 @@ class String
   end
 
   def count_sentences
-    self.split(.,?,!) if counting_sentences.end_with(".,?,!") +=1 else 
-    puts count = 0 
+    self.split(.,?,!) if counting_sentences.end_with(".,?,!")
   end
 end
